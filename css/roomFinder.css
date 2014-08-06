@@ -1,0 +1,220 @@
+@charset "UTF-8";
+
+/********************* LAYOUT *********************/
+ body {
+    background-color: #EDF3FF; /*#8096A0*/
+    list-style: none;
+}
+
+ #container{
+ 	z-index:-1;
+ 	width:100%;
+ 	margin:0 auto;
+ 	vertical-align: middle;
+  height: 120%;
+ }
+
+#zoomwrapper, #zoom, .zoomProps, .polaroid{
+	top: 30%;
+	vertical-align: middle;
+}
+
+
+/********************* BUTTONS *********************/
+div.Outer {
+  width: 100%;
+  clear: both;
+  z-index:1000;
+  position: fixed;
+  top: 2%;
+  left: 2%;
+  right:2%; 
+}
+
+div.InnerLeft {
+  width: 4%;
+  min-width:60px;
+  position: relative;
+  float: left;
+}
+
+div.InnerRight {
+  width: 40%;
+  position: relative;
+  float: left;
+}
+
+#searchBar{
+  width:100%;
+  min-width:180px; 
+  min-height  :40px;
+  padding-left:25px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  border:1px solid black;
+  font-size:2em;
+  background-image:url('../img/search.png');
+  background-repeat:no-repeat;
+  background-position:left center;
+  outline:0; 
+}
+
+.squareBtn{
+  border:1px solid white;
+  width:auto;
+  height:40px;
+}
+
+#navigateGroup{
+  z-index:1000;
+  position: fixed;
+  bottom: 2%;
+  right: 2%; 
+}
+#navigateGroup li{ /*width height of controlButtons*/
+  padding:10px;
+  margin:10px;
+}
+
+#infoBtn{
+	z-index:1000;
+	position: fixed;	
+  bottom: 4%;
+  left: 2%;
+}
+
+
+
+/********************* POP UP MESSAGE *********************/
+
+.selected {
+  /*background-color:#1F75CC*/
+  color:white;
+  z-index:100;
+}
+
+.messagepop {
+  background-color:#FFFFFF;
+  border:1px solid #999999;
+  opacity: 0.8;
+  filter: alpha(opacity=80); /* For IE8 and earlier */  
+  cursor:default;
+  display:none;
+  text-align:left;
+  z-index:50;
+
+  position:absolute;
+  width:50%;
+  height:auto;
+  padding: 25px 25px 20px;
+  bottom: 4%;
+  left: 12%;
+}
+
+.messagepop p{
+  margin: 8px 0;
+  padding-bottom: 8px;
+  font-size: 150%;
+}
+
+
+/********************* CUSTOM HAMMERJS STYLE *********************/
+
+@font-face {
+  		font-family: "Imitation";
+  		src: url("IMIT.TTF");
+}*/
+
+ul {list-style: none;}
+.upsky{
+
+}
+
+#zoom {
+
+}
+  
+#zoom2 {   
+	left:300px;
+}
+ 
+#zoom3 {  
+	left:600px;
+}
+
+.zoomProps{	  
+	height: 240px;
+	/*width: 230px;*/
+	width: 100%;
+	position:absolute;
+}
+
+#zoomwrapper {
+	height: 377px;
+	/*width: 600px;*/
+	width: 100%;
+	overflow: hidden;
+}
+
+#roomMap {
+    display: block;
+    margin: auto 0;
+    width: 100%;
+}
+
+.polaroid{
+	text-align: center;	  
+	padding: 10px 10px 25px 10px;
+}
+  
+.welcome{
+	font-family: 'Bree Serif', serif;
+	font-size:24px;
+	color:#FFF;
+	text-shadow: 1px 1px 2px #363636;
+	filter: dropshadow(color=#363636, offx=1, offy=1);
+}
+
+/********************* ROTATION FUNCTIONALITY *********************/
+.north {
+	transform:rotate(0deg);
+	-ms-transform:rotate(0deg); /* IE 9 */
+	-webkit-transform:rotate(0deg); /* Safari and Chrome */
+
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.west {
+	transform:rotate(90deg);
+	-ms-transform:rotate(90deg); /* IE 9 */
+	-webkit-transform:rotate(90deg); /* Safari and Chrome */
+
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;	
+}
+.south {
+	transform:rotate(180deg);
+	-ms-transform:rotate(180deg); /* IE 9 */
+	-webkit-transform:rotate(180deg); /* Safari and Chrome */ 
+
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;	  
+}
+.east {
+	transform:rotate(270deg);
+	-ms-transform:rotate(270deg); /* IE 9 */
+	-webkit-transform:rotate(270deg); /* Safari and Chrome */
+
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;	
+}
+
+
