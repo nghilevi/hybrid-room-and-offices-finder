@@ -14,13 +14,13 @@ Features:
 
 _ Search by room number
 
-_ Some rooms can be searched by its name
+_ Search by room number name
 
 _ Panable map
 
-_ Rotate, zoom in and out
+_ Rotate, zoom in and out map
 
-_ Pinch to scale and rotate
+_ Pinch to scale and rotate capabilities
 
 _ Find basic information of the room
 
