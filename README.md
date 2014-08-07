@@ -11,13 +11,21 @@
 An great lightweight HTML5 app that helps user to locate rooms in buildings and related information in just less than 1 second.
 
 Features:
+
 _ Search by room number
+
 _ Some rooms can be searched by its name
+
 _ Panable map
+
 _ Rotate, zoom in and out
+
 _ Pinch to scale and rotate
+
 _ Find basic information of the room
+
 _ Lightweight and super fast!!!
+
 
 ##Screenshots##
 ![](https://raw.githubusercontent.com/vinhnghi223/Room-and-Offices-Finder/master/sceenshot.png)
