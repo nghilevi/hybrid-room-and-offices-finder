@@ -64,4 +64,4 @@ Step 4: Duplicate layer and color for each room
 
 Step 5: Then use Multiple Exporter to export
 
-Disclaimer: This app is recommended to be share and advertised inside Laurea and Laurea network.
+Disclaimer: This app is an open source project created and initiated by Nghi Le Vinh. Laurea room finder is the app that use this source code and also be developed by Nghi.
