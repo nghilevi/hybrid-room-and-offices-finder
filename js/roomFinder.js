@@ -1,4 +1,7 @@
 // ************************* BASIC FUNCTIONALITIES **************************//
+// TODO 
+// add checking for  hasOwnProperty
+// better collision detection
 
 // **************** Room Map Data Initialization ****************
 var searchString="",valueOfRoom=null, firstCharOfSearchString=null,
@@ -57,7 +60,7 @@ for (var key in roomByValue) {
 }   
 
 //construct collisionMap 
-for (var key in speacialRoom) {
+for (var key in speacialRoom) { 
   var specialRoomArray=speacialRoom[key]; //['restaurant','res','canteen','ravintola','rav']
   for(i=0;i<specialRoomArray.length;i++){
     var roomName=specialRoomArray[i]; //eg. 'restaurant'
@@ -68,7 +71,7 @@ for (var key in speacialRoom) {
 console.log(collisionMap);
 // **************** Search for room when typing ****************
 
-$('#searchBar').on('input', function() { //Bo sung kha nang giai quyet collision
+$('#searchBar').on('input', function() { 
   searchString = $('#searchBar').val().toLowerCase();
   firstCharOfSearchString=searchString.charAt(0);
   if(isNaN(parseInt(firstCharOfSearchString))){
