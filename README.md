@@ -1,7 +1,7 @@
-##[Download Now on Google Play!!!](http://goo.gl/scMxSo)##
-##[Web Demo](http://vinhnghi223.github.io/hybrid-room-and-offices-finder)##
+[Download Now on Google Play!!!](http://goo.gl/scMxSo)
+[Web Demo](http://vinhnghi223.github.io/hybrid-room-and-offices-finder)
  
-##Table of Contents##
+##Table of Contents
 
 - [Introduction](#introduction)
 - [Screenshots](#screenshots)
