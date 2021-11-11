@@ -1,4 +1,5 @@
 ##[Download Now on Google Play!!!](http://goo.gl/scMxSo)##
+##[Web Demo](http://vinhnghi223.github.io/hybrid-room-and-offices-finder)##
  
 ##Table of Contents##
 
@@ -33,7 +34,7 @@ _ Lightweight and super fast!!!
 ![](https://raw.githubusercontent.com/vinhnghi223/Room-and-Offices-Finder/master/sceenshot.png)
 
 ##Demo notes##
-[Web Demo](http://www.codingisloving.com/WEBAPPS/CRoom-and-Offices-Finder/index.html)
+[Web Demo](http://vinhnghi223.github.io/hybrid-room-and-offices-finder)
 
 APK File (Click on Raw to download): [Download](Updated later).
 
