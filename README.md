@@ -60,7 +60,7 @@ Step 5: Then use Multiple Exporter to export
 
 Disclaimer: This app is an open source project created and initiated by Nghi Le Vinh. Laurea room finder is the app that use this source code and also be developed by Nghi.
 
-## Demo
+## Review
 
 ![](https://raw.githubusercontent.com/vinhnghi223/Room-and-Offices-Finder/master/review1.png)
 
